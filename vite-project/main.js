@@ -47,3 +47,5 @@ document.querySelector('#app').innerHTML = `
   }
 
   animate();
+
+  //remeber to use 'npm run dev'
