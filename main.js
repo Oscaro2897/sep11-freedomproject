@@ -26,4 +26,3 @@ function animate() {
 }
 
 animate();
-g
