@@ -39,6 +39,7 @@ if ( WebGL.isWebGLAvailable() ) {
 
 }
 
+// drawing lines
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
@@ -57,3 +58,4 @@ points.push( new THREE.Vector3( 10, 0, 0 ) );
 
 const geometry = new THREE.BufferGeometry().setFromPoints( points );
 const line = new THREE.Line( geometry, material );
+// end of drawing lines
